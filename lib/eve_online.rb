@@ -16,6 +16,8 @@ require "eve_online/exceptions/no_content"
 require "eve_online/exceptions/not_modified"
 require "eve_online/exceptions/error_limited"
 
+require 'eve_online/eve_online'
+
 module EveOnline
   module ESI
     autoload :Base, "eve_online/esi/base"
