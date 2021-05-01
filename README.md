@@ -1898,6 +1898,18 @@ market_prices.etag # => "2d5acc3bd4555821bb91d787596f5ddad129f849739e83162e93c02
 
 #### Search on a string
 
+```ruby
+options = { search: 'Jita', categories: ['solar_system'], strict: true }
+
+search = EveOnline::ESI::Search.new(options)
+
+search.as_json #=> {:solar_system=>[30000142]}
+
+search.solar_system # => [30000142]
+
+search.etag # => "fe8f7a2c7e0b10825f52961747c22b7522b499af4e0e51b6cb28bee3"
+```
+
 ### Skills
 
 #### Get character attributes
@@ -3210,6 +3222,7 @@ Thank you everyone!
 * Ian Flynn (@monban)
 * Mekaret Eriker (@Mekaret)
 * Y. (@lunohodov)
+* Trevor Copeland (@sicks)
 
 ## License
 

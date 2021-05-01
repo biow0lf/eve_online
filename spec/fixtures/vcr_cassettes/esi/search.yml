@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://esi.evetech.net/v2/search/?categories=solar_system&search=Jita&strict=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - EveOnline API (https://github.com/evemonk/eve_online) v0.40.0
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 May 2021 06:26:08 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '27'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Content-Type,Authorization,If-None-Match,X-User-Agent
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Content-Type,Warning,ETag,X-Pages,X-ESI-Error-Limit-Remain,X-ESI-Error-Limit-Reset
+      Access-Control-Max-Age:
+      - '600'
+      Allow:
+      - GET,HEAD,OPTIONS
+      Cache-Control:
+      - public
+      Content-Language:
+      - en
+      Etag:
+      - '"fe8f7a2c7e0b10825f52961747c22b7522b499af4e0e51b6cb28bee3"'
+      Expires:
+      - Sat, 01 May 2021 07:10:06 GMT
+      Last-Modified:
+      - Sat, 01 May 2021 06:10:06 GMT
+      Strict-Transport-Security:
+      - max-age=31536000
+      Vary:
+      - Accept-Language
+      X-Esi-Error-Limit-Remain:
+      - '100'
+      X-Esi-Error-Limit-Reset:
+      - '52'
+      X-Esi-Request-Id:
+      - a6055e33-50f7-4354-9646-8d5a4ebff538
+    body:
+      encoding: UTF-8
+      string: '{"solar_system":[30000142]}'
+  recorded_at: Sat, 01 May 2021 06:26:08 GMT
+recorded_with: VCR 6.0.0

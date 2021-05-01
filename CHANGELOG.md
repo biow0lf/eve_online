@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.41.0
+
+* Add `EveOnline::ESI::Search`
+
 ## v0.40.0
 
 * Add `EveOnline::Formulas::TrainingRate`

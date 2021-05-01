@@ -96,6 +96,8 @@ module EveOnline
     autoload :CharacterSkillQueue, "eve_online/esi/character_skill_queue"
     autoload :CharacterSkills, "eve_online/esi/character_skills"
 
+    autoload :Search, "eve_online/esi/search"
+
     autoload :ServerStatus, "eve_online/esi/server_status"
 
     autoload :UniverseAncestries, "eve_online/esi/universe_ancestries"
@@ -175,6 +177,7 @@ module EveOnline
       autoload :WalletTransaction, "eve_online/esi/models/wallet_transaction"
       autoload :CorporationOrder, "eve_online/esi/models/corporation_order"
       autoload :HomeLocation, "eve_online/esi/models/home_location"
+      autoload :Search, "eve_online/esi/models/search"
       autoload :ServerStatus, "eve_online/esi/models/server_status"
 
       autoload :MarketHistory, "eve_online/esi/models/market_history"
