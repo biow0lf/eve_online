@@ -60,7 +60,7 @@ GEM
       mixlib-config (>= 2.2.1, < 4)
       mixlib-shellout
     method_source (1.0.0)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.9)
@@ -68,10 +68,10 @@ GEM
     mixlib-shellout (3.2.5)
       chef-utils
     multipart-post (2.1.1)
-    nokogiri (1.11.3)
+    nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.3-x86_64-darwin)
+    nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
     parallel (1.20.1)
     parser (3.0.1.0)
