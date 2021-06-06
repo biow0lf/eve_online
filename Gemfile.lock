@@ -27,7 +27,7 @@ GEM
       concurrent-ruby
     coderay (1.1.3)
     colorize (0.8.1)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     crack (0.4.5)
       rexml
     diff-lcs (1.4.4)
